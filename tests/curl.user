@@ -1,0 +1,5 @@
+curl -v -k POST https://frame.maxkod.pl/api/udmin/ser \
+-H 'Accept: application/json' \
+-H 'Content-Type: application/json' \
+-H 'Authorization: Bearer 123'
+

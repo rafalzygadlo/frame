@@ -1,0 +1,17 @@
+<div class="container">     
+  <h2><?php print __("Home"); ?></h2>
+  <br>
+  <div class="row"> 
+     <ul class="row row-cols-3 row-cols-sm-4 row-cols-lg-6 row-cols-xl-8 list-unstyled list">
+        <?php $render->render_tile('admin/config',__('Config'),'bi-alarm') ?>
+        <?php $render->render_tile('admin/category',__('Category'),'bi-tags') ?>
+        <?php $render->render_tile('admin/user',__('User'),'bi-person') ?>
+        <?php $render->render_tile('admin/admin',__('Admin'),'bi-person-plus') ?>          
+     </ul>
+  </div>
+     
+  
+  </div>
+
+</div>
+

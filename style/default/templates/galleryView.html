@@ -1,0 +1,23 @@
+	
+				
+    <?php $this->RenderSelectedPage($this); ?>
+  
+    <section id="project-version-one" >
+        <div class="container">
+            <div class="" id="image-gallery-mix">
+                <?php 
+                foreach($this->Items as $item)
+                {
+                ?>
+                    
+                    <div class="col-md-6">
+                        <h2><?php print $item->GetName(); ?></h2>
+                        <img src="<?php print $item->img; ?> " >
+                    </div>
+                <?php
+                }
+                ?>
+            </div>
+        </div>
+    </section>
+

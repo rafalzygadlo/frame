@@ -1,0 +1,16 @@
+{
+    "name": "qotsa2/new",
+    "authors": [
+        {
+            "name": "Rafal Zygadlo",
+            "email": "rafal@maxkod.pl"
+        }
+    ],
+    
+    "autoload":{
+        "psr-4": {
+            "app\\":"./"
+        }
+    },
+    "require": {}
+}
